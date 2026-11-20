@@ -34,7 +34,7 @@ public class Message {
         this.messageHash = createMessageHash();
         this.status = "Pending";
     }
-
+//check details
     public boolean checkMessageID() { return messageID.length() <= 10; }
     
     public boolean checkRecipientCell() { return RECIPIENT_PATTERN.matcher(recipient).matches(); }
