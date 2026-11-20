@@ -24,6 +24,7 @@ public class Main {
         boolean sessionActive = false;
 
         // --- PART 1: Login Loop ---
+        //Main entry to quickchat
         while (!sessionActive) {
             System.out.println("\n=== QuickChat ===");
             System.out.println("1. Register");
